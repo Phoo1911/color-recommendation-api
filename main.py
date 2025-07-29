@@ -1,9 +1,8 @@
 from fastapi import FastAPI, UploadFile, File
 from pydantic import BaseModel
 from typing import List, Optional
-from models.emotion_infer import get_emotion_vector
+from models.emotion import get_emotion_vector
 from models.color_mlp import predict_rgb_mlp, load_model
-from models.palette import get_best_palette_color
 import numpy as np
 import tempfile
 import os
