@@ -5,6 +5,3 @@ pydantic
 torch
 transformers
 requests
-peft
-scikit-learn
-
