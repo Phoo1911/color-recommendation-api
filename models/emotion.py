@@ -14,7 +14,7 @@ labels_20d = [
 
 
 
-model_path = "goemotions-lora-llama3-20d"
+model_path = "./goemotions-lora-llama3-20d"
 # Load tokenizer
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 
