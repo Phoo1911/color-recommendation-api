@@ -46,6 +46,6 @@ if __name__ == "__main__":
     sample_input = np.random.rand(20)
 
     # MLP 추론
-    model = load_model("/home/tmp1/kyu/emotion_color_api/models/weights/mlp_model_tuned.pt", input_dim=20)
+    model = load_model("/weights/mlp_model_tuned.pt", input_dim=20)
     rgb_mlp = predict_rgb_mlp(sample_input, model)
     print("🎨 MLP RGB:", rgb_mlp)
