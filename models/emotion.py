@@ -14,7 +14,7 @@ labels_20d = [
 
 
 
-model_path = "/home/tmp1/kyu/goemotions-lora-llama3-20d"
+model_path = "/home/tmp1/kyu/emotion_color_api/goemotions-lora-llama3-20d"
 # Load tokenizer
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 
