@@ -14,7 +14,7 @@ labels_20d = [
 
 
 
-model_path = "https://github.com/Phoo1911/color-recommendation-api/tree/d7200f0ddae15572c06335196b836f6875c3fd5a/goemotions-lora-llama3-20d"
+model_path = "goemotions-lora-llama3-20d"
 # Load tokenizer
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 
